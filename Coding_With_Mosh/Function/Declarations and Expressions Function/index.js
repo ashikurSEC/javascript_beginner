@@ -13,3 +13,11 @@ let run = function () {
 };
 
 run();
+
+// ES6 Function 
+
+let greet = ( names => {
+    return names;
+});
+
+console.log(greet('Hello Ashikur Rahman!'));
